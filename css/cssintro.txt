@@ -1,0 +1,25 @@
+Css - cascading style sheets which helps developers to apply styles to html elements with in the page.
+
+History of css
+		- css 1.0
+		- css 2.0 
+		- css 3.0
+
+
+different ways to write css
+		- inline 
+		- internal 
+		- external	- prefered way
+		
+difference between all the above?
+
+what are the core concepts of css?
+		- selectors - which help developer to select an element.
+
+		- properties - which helps developer to apply properties to an element for styling.
+
+how many selectors?
+
+how many Properties?
+
+

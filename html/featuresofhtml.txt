@@ -1,0 +1,30 @@
+features of HTML 5
+
+HTML5 is powerful than all other versions 
+
+Note : make sure that while creating a page we should use semantic tags more, because search engine undestands semantic tags rather than non-semantic tags.
+
+
+features of HTML5
+		-semantic tags
+				-section
+				-main
+				-header
+				-footer
+				-article
+				-aside
+				-figure
+				-audio
+				-video
+		-non semantic tags
+				-div
+				-span
+
+
+	- webstorage
+			-local storage
+			- session storage
+	-drag and drop 
+	-geolocation
+
+

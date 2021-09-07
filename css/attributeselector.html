@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Attribute Selector to css</title>
+		
+	</head>
+	<style>
+
+		[class]{
+			color:blue;
+		}
+
+		[src="images/coronaimg.jpg"]{
+			height: 300px;
+			width: 300px;
+		}
+
+		[alt^="co"]{
+			border:5px solid green;
+		}
+
+		[alt$="img"]{
+			border-radius: 20px;
+		}
+
+		[id*="ron"]{
+			background-color: green;
+		}
+
+
+	</style>
+	<body>
+		<!--
+			attribute selectors
+				- has attribute
+				- attr value equals to 
+				- attr value starts with
+				- attr ends with
+				- attr value contains
+		 -->
+		<div class="coronahead" id="coronaid">What is Corona Virus?</div>
+		<article class="coronapara">Coronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2 virus.
+Most people who fall sick with COVID-19 will experience mild to moderate symptoms and recover without special treatment. However, some will become seriously ill and require medical attention.</article>
+	<img src="images/coronaimg.jpg" alt="corona-img" />
+
+	</body>
+</html>
