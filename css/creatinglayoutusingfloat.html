@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>creating layout using float</title>
+	<style>
+		.parentdiv{
+			border:2px solid green;
+			padding: 10px;
+			float: left;
+			width: 100%;
+			box-sizing: border-box;
+		}
+
+		.childclass{
+			/*height: 100px;
+			width: 100px;*/
+			margin: 10px;
+			height: 100px;
+		}
+
+		.div1{
+			background-color: red;
+			float: left;
+			width: 25%;
+		}
+		.div2{
+			background-color: blue;
+			float: left;
+			width: 45%;
+		}
+		.div3{
+			background-color: green;
+			float: left;
+			width: 25%;
+
+		}
+
+	</style>
+
+</head>
+<body>
+	<!-- how many ways we can create a layout?
+		There are three ways 
+			- float - left/right/none
+			- flex
+			- grid -->
+	<div class="parentdiv">
+		<div class="childclass div1"></div>
+		<div class="childclass div2"></div>
+		<div class="childclass div3"></div>
+
+	</div>
+</body>
+</html>

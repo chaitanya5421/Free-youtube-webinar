@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>create a layout using flex</title>
+	<style type="text/css">
+		.parentdiv{
+				border:1px solid blue;
+				display: flex;
+				height: 500px;
+				flex-direction: row;
+				flex-wrap: nowrap;
+				justify-content: space-between;
+				/*align-items: center;*/
+				/*flex-flow: column wrap;*/
+				/*align-content: space-between;*/
+			}
+
+		.childdiv{
+			font-size: 25px;
+			border:2px solid green;
+			margin: 10px;
+			height: 100px;
+			width: 100px;
+		}
+
+		.div1{
+			/*order:3;*/
+			flex-grow: 1;
+			align-self: start;
+		}
+		.div2{
+			/*order:1;*/
+			flex-grow: 5;
+			align-self: center;
+		}
+		.div3{
+			/*order:2;*/
+			flex-grow: 1;
+			align-self: end;
+		}
+
+
+	</style>
+</head>
+
+<body>
+
+		<!-- flex container properties
+			- flex-direction
+			- flex-wrap
+			- justify-content
+			- align-items
+			- align-content
+			- flex-flow
+		 -->
+	<div class="parentdiv">
+		<div class="childdiv div1">div1</div>
+		<div class="childdiv div2">div2</div>
+		<div class="childdiv div3">div3</div>
+		
+
+	</div>
+
+
+</body>
+</html>
