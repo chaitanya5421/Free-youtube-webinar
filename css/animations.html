@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Animations</title>
+		<style>
+			div img{
+				width: 200px;
+				height: 200px;
+				border:1px solid red;
+				border-radius: 50%;
+
+				animation-name: rolling;
+				animation-delay: 2s;
+				animation-duration: 10s;
+				animation-timing-function: all;
+				animation-iteration-count: infinite;
+               }
+
+
+				@keyframes rolling{
+					0%{
+						transform: rotate(0deg);
+					}
+					100%{
+						transform: rotate(360deg);
+					}
+				}
+			
+		</style>
+	</head>
+	<body>
+		<div>
+			<img src="images/tom.jpg"  alt="tom-img" />
+		</div>
+	</body>
+</html>
