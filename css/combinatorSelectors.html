@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Combinator Selectors</title>
+	</head>
+	<style type="text/css">
+		.parentclass .childclass{
+			color: white;
+			background-color: green;
+			font-size: 25px;
+		}
+
+		ul>li{
+			border:2px solid gold;
+			background-color: orange;
+		}
+
+		/*section+h2{
+			background-color: lightblue;
+		}*/
+
+		section ~ h1{
+			background-color: yellow;
+			color:green;
+		}
+	</style>
+	<body>
+		<!--
+			Combinator Selectors
+			There are four different Combinators in css
+			- Descendent selector(space)
+			- Child Selector(>)
+			- adjacent Sibling Selector(+)
+			- general sibling Selector(~)
+		 -->
+
+		 <!-- descendent selector -->
+
+		 <section class="parentclass">
+		 	<div class="childclass">HTML</div>
+		 	<div>CSS</div>
+		 	<div>Javascript</div>
+		 	<div class="childclass">Bootstrap</div>
+		 	<div>Jquery</div>
+		 	<p>welcome to WEB Development</p>
+		 	<div>AJAX</div>
+
+		 	<article>
+		 		<div>i am inside a nested elements</div>
+		 	</article>
+		 </section>
+
+		 <!-- child Selector -->
+		 <ul>
+		 	<li>UI DEVELOPMENT</li>
+		 	<li>MEAN DEVELOPMENT</li>
+		 	<li>MERN DEVELOPMENT</li>
+
+		 	<div>
+		 		<li>This is child selector</li>
+		 	</div>
+
+		 	<li>REACTJS DEVELOPMENT</li>
+		 	<li>ANGULAR DEVELOPMENT</li>
+
+		 </ul>
+
+		 <!-- Adjacent Siblings selector -->
+
+		 <section>
+		 	<h2>This is a Adjacent Sibling selector</h2>
+		 </section>
+		 <h2>This is a Adjacent Sibling selector</h2>
+		 <h2>This is a Adjacent Sibling selector</h2>
+
+		 <!-- general sibling selector -->
+
+		  <section class="sectiongeneral">
+		 	<h2 class="head">This is a Adjacent Sibling selector</h2>
+		 </section>
+		 <h2 class="head">This is a Adjacent Sibling selector</h2>
+		 <h1 class="head">This is a Adjacent Sibling selector</h1>
+		 <p>This is Para</p>
+		 <h1>This is a Adjacent Sibling selector<h1>
+
+	</body>
+</html>

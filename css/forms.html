@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Forms</title>
+	</head>
+
+	<body>
+		<!--
+			Forms -- to collect the information from the user.
+
+			form attributes -
+				Method - GET/POST
+				action - server side url
+				enc-type - 'multipart/form-data'
+			
+				novalidate - html5
+				autocomplete - html5
+
+			Form Elements
+				- input elements
+					- text
+					- Number
+					- password
+					- hidden
+					- file
+					- radio
+					- checkbox
+					- submit
+					- reset
+
+				dropdown
+					- select
+						-options
+
+		 -->
+		<h2>Welcome to AchieversIT</h2>
+		<h2>Forms</h2>
+
+	<form method="POST" action="#" enctype="multipart/form-data" >
+			<label>FirstName</label>
+			<input type="text" name="fname" placeholder="enter your first name" />
+			<label>LastName</label>
+			<input type="text" name="lname" placeholder="LastName"  />
+
+			<label>Number</label>
+			<input type="number" name="number" value="91" />
+
+			<label>email</label>
+			<input type="text" name="email"  />
+
+			<label>Password</label>
+			<input type="password" name="password" />
+
+			<br />
+
+			<label>hidden</label>
+			<input type="hidden"  />
+
+			<label>choose file</label>
+			<input type="file" name="file" />
+
+			<label>Gender</label>
+			<input type="radio" name="gender" />Male
+			<input type="radio" name="gender" />FeMale
+
+			<input type="checkbox" />
+
+			<label>choose your city</label>
+			<select multiple>
+				<option>Choose your city</option>
+				<option>chennai</option>
+				<option>hyderabad</option>
+				<option>mumbai</option>
+				<option>karnataka</option>
+			</select>
+
+			<button type="submit" value="submit">submit</button>
+
+			<input type="reset" value="reset" />
+
+		</form>
+
+
+
+
+	</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Media Queries in css</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<style>
+			.parentdiv{
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+			}
+
+			.childdiv{
+				padding: 10px;
+			}
+
+@media only screen and (max-width: 600px) {
+		.childdiv{
+			background-color: yellow;
+			margin: 10px;
+		}
+
+		.parentdiv{
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+			}
+
+}
+
+@media only screen and (min-width: 600px) ) {
+	.childdiv{
+			background-color: lightgreen;
+		}
+}
+
+
+		</style>
+	</head>
+	<body>
+		<div class="parentdiv">
+			<div class="childdiv">
+				<h2>This is media queries</h2>
+			</div>
+
+			<div class="childdiv">
+			<h2>This is media queries</h2>
+
+			</div>
+
+			<div class="childdiv">
+				<h2>This is media queries</h2>
+			</div>
+		</div>
+	</body>
+</html>

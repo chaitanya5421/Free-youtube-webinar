@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pseudo Selectors</title>
+	</head>
+	<style type="text/css">
+		
+		ul li:first-child{
+				font-size: 30px;
+				/*background-color: pink;*/
+		}
+
+		ul li:last-child{
+				font-size: 30px;
+				/*background-color: brown;*/
+		}
+
+		ul li:nth-child(3){
+			font-size: 30px;
+			/*background-color: green;*/
+		}
+
+		ul li:nth-child(even){
+			border:2px solid gold;
+			font-size:20px;
+			background-color: orange;
+		}
+
+		ul li:nth-child(odd){
+			border:2px solid gold;
+			font-size:20px;
+			background-color: green;
+		}
+		
+		a:link{
+			color:blue;
+		}
+
+		a:active{
+			color:red;
+		}
+
+		a:visited{
+			color:green;
+		}
+
+		ul li:hover{
+				background-color: blue;
+				height:100px;
+		}
+
+		input:focus{
+			background-color: green;
+		}
+
+	</style>
+	<body>
+		<!--
+			Pseudo Selector:
+				it allows developer to style as per "their state" inside DOM.
+			- pseudo Class Selector(selector : state of an element)
+				- :first-child
+				- :last-child
+				- :nth-child(index)
+				Achor has four states internally such as
+					a:link,a:active,a:focus,a:visited, a:hover
+				
+			- Pseudo Element Selector(Selector :: state of an element)
+		 -->
+
+		 <ul>
+		 	<li>UI DEVELOPMENT</li>
+		 	<li>MEAN DEVELOPMENT</li>
+		 	<li>MERN DEVELOPMENT</li>
+		 	<li>REACTJS DEVELOPMENT</li>
+		 	<li>ANGULAR DEVELOPMENT</li>
+
+		 </ul>
+		 <a href="https://www.achieversit.com/" target="_blank">click here</a>
+
+		 <input type="text" name="fname">
+
+
+
+	</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Positions in css</title>
+		<style>
+			body{
+				height: 1440px;
+			}
+			section{
+				border:1px solid red;
+				padding:20px;
+				/*posistion: relative;*/
+			}
+
+			.childdiv{
+				background-color: #4000ff;
+				height: 200px;
+				width:200px;
+				color: white;
+				font-size: 20px;
+				/*position: Absolute;
+				top:100px;*/
+				
+				/*top:100px;*/
+				/*right: 200px;
+				bottom: 400px;*/
+			}
+
+			/*.positionfixed{
+				position: fixed;
+			}
+*/
+		.positionsticky{
+			position: sticky;
+			top: 100px;
+		}
+
+		</style>
+	</head>
+
+	<body>
+		<!-- positions in css 
+				-static
+				-relative
+				-absolute
+				-fixed
+				-sticky
+		-->
+		<section>
+			<div class="childdiv">
+				Positions
+			</div>
+			<div class="positionfixed">
+				<img src="https://www.achieversit.com/assets/images/AIT-white.jpg" alt="achieversit" />
+			</div>
+
+			
+		</section>
+		<div class="positionsticky">
+				<h2>This is sticky</h2>
+			</div>
+					
+	</body>
+</html>
