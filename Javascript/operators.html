@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Operators in Javascript</title>
+</head>
+<body>
+
+	<!-- 
+		Operators - to perform some Operations.
+		- arithmetic(+,-,*,/,%)
+		- assignment(=,+=,-=,*=,/=)
+		- logical operator(&&,||,!)
+		- comparision operator(==, ===,<,>,>=,<= ,!=)
+		- terinary operator/conditional operator
+		(condition? statement1 : statement2)
+			
+	  -->
+
+<script type="text/javascript">
+
+
+	value1 = 10;
+	value2 = "10";
+
+	document.write(value1 === value2);
+
+	let i = 0;
+	for(let j=0; j<=5;j++){
+		// alert(i+=5);
+		// console.log(i);
+	}
+
+
+
+
+
+
+
+
+
+
+	var num1,num2,num3;
+	 num1 = 10;
+	 num2 = 10;
+	 num3 = num1+num2;
+
+	 console.log(num3);
+
+	let _num;
+
+	// declaration
+
+	 _num = 12;
+
+	 if(_num%2 == 0){
+	 	console.log('given number is Even');
+	 }else{
+	 	console.log('given number is Odd');
+	 }
+
+
+	 // terinary operator
+	 (_num%2 == 0 ?console.log('given number is Even') : console.log('given number is Odd') )
+
+
+	 let value = 5;
+	 value += 5;
+
+	 value = value+5;
+
+	 console.log(value);
+	
+
+	// A   B   A&B   A|B   !A
+	// T 	T    T     T    F
+	// T   F    F     T     F
+	// F	T    F     T    T
+	// F	F    F     F    T
+
+</script>
+</body>
+</html>

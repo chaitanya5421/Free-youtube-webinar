@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Conditions in Javascript</title>
+</head>
+<body>
+
+		<!-- 
+		conditions - To take decisions.
+		Types in conditions
+			1)if condition
+			2)if else
+			3)if else if
+			4)switch
+
+			 -->
+
+		<script type="text/javascript">
+			
+			// if(cond){
+			// 	// block of code
+			// }
+
+			let isThereClass = "no";
+			if(isThereClass == "yes"){
+			 console.log("yes we have class today");
+			 }else{
+			 	console.log("no we don't have class today");
+			 }
+
+	// if else if
+	let a = 10;
+	let b = 20;
+	if(a>b){
+		console.log('a is greater than b');
+	}else if(a<b){
+		console.log("a is less than b");
+	}else {
+		console.log('a is equal to b');
+	}
+
+	// syntax for switch
+			// switch(option){
+			// 	case 1:statement(s);
+			// 	break;
+			// 	case 2:statement(s);
+			// 	break;
+			// 	case 3:statement(s);
+			// 	break;
+			// default:statement(s);
+			// break;
+			// }
+
+		// alert();
+
+		// debugger;
+		let today = new Date();
+
+		let dayNumber = today.getDay();
+
+		console.log(dayNumber);
+
+		switch(dayNumber){
+			case 0 : alert("Today is sunday");
+			break;
+			case 1 : alert("Today is Monday");
+			break;
+			case 2 : alert("Today is Tuesday");
+			break;
+			case 3 : alert("Today is Wednesday");
+			break;
+			case 4 : alert("Today is Thursday");
+			break;
+			case 5 : alert("Today is Friday");
+			break;
+			case 6 : alert("Today is saturday");
+			break;
+			default:alert("everyday is a funday");
+			break;
+
+		}
+
+
+
+		</script>
+</body>
+</html>

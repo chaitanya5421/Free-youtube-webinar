@@ -1,0 +1,8 @@
+HTML - to create the structure of the page.
+CSS - To add the styling to the page.
+JAVASCRIPT - To make the page Intraction.
+
+		- JAVASCRIPT is a client side scripting language.
+		- JAVASCRIPT is a dynamic language.
+		- JAVASCRIPT is a loosely coupled language.
+ 
